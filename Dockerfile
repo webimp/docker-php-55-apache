@@ -23,6 +23,8 @@ RUN apt-get update && \
         zip \
         unzip \
         subversion \
+        rsync \
+        openssh-client \
         wget && \
     rm -rf /var/lib/apt/lists/* && \
     wget https://getcomposer.org/download/1.6.2/composer.phar -O /usr/local/bin/composer && \
